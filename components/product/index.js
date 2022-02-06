@@ -8,15 +8,20 @@ import Image from "next/image"
 // styles
 import styles from "./product.module.css"
 
-export default function Product({ post }) {
+export default function Product({ post, key }) {
+  const imgSrc = `https:${post.thumbnailImage.file.url}`
+
   return (
     <div className={styles.productContainer}>
       <div className={styles.productImageContainer}>
         <Image
           className={styles.imageStyle}
-          src={`https:${post.thumbnailImage.file.url}`}
+          src={imgSrc}
           alt={`photo-${post.name}`}
+          placeholder={"blur"}
+          blurDataURL="https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image-300x225.png"
           layout="fill"
+          key={imgSrc}
         />
       </div>
       <div className={styles.infoContainer}>

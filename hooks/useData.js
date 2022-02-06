@@ -1,17 +1,15 @@
-//libraries
-import useSWR from "swr";
+// libraries
+import useSWR from "swr"
 
-//utils
-import { fetcher } from "../utils/fetcher";
-
-const baseUrl = "https://jsonplaceholder.typicode.com";
+// utils
+import { fetcher } from "../utils/fetcher"
 
 export default function useData(url, fetchedData) {
-  if (!url) throw new Error("You need to provide me with a link!");
+  if (!url) throw new Error("You need to provide me with a link!")
 
-  const { data, error } = useSWR(url, fetcher);
+  const { data, error } = useSWR(url, fetcher)
 
-  const loading = !data && !error;
+  const loading = !data && !error
 
-  return { data, error, loading };
+  return { data, error, loading }
 }
