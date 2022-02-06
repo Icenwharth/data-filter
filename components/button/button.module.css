@@ -1,0 +1,15 @@
+.button {
+  border-radius: 5px;
+  width: 100px;
+  min-height: 25px;
+  border: none;
+  margin: 0 5px;
+}
+
+.button.positive {
+  background-color: rgb(70, 110, 241);
+}
+
+.button.negative {
+  background-color: rgb(224, 68, 68);
+}

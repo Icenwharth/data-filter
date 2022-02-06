@@ -1,4 +1,8 @@
-import '../styles/globals.css'
+// libraries
+import React from "react"
+
+// styles
+import "../styles/globals.css"
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />

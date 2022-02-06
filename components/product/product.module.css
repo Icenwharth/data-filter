@@ -1,0 +1,107 @@
+.productContainer {
+  padding: 10px;
+  font-size: 15px;
+}
+
+.productImageContainer {
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.imageStyle {
+  margin: 0 auto;
+}
+
+.infoContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  max-height: 25px;
+  max-width: 130px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.categoryTags {
+  display: flex;
+  font-size: 9px;
+  width: 100%;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.tag {
+  border-radius: 10px;
+  padding: 3px 5px;
+  background-color: #8d8d8d;
+  max-height: 22px;
+}
+
+.colorFamily {
+  display: flex;
+  font-size: 9px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.family {
+  border-radius: 10px;
+  padding: 3px 5px;
+  background-color: #8d8d8d;
+  max-height: 22px;
+}
+
+.family.black {
+  color: white;
+  background-color: black;
+}
+
+.family.green {
+  background-color: rgb(32, 199, 40);
+}
+
+.family.white {
+  background-color: rgb(226, 226, 226);
+}
+
+.family.brown {
+  color: white;
+  background-color: rgb(73, 44, 1);
+}
+
+.family.orange {
+  background-color: rgb(255, 239, 96);
+}
+
+.family.yellow {
+  background-color: rgb(255, 151, 15);
+}
+
+.family.natural {
+  background-color: rgb(204, 154, 45);
+}
+
+.family.blue {
+  background-color: rgb(18, 104, 184);
+}
+
+.family.red {
+  background-color: rgb(211, 13, 13);
+}
+
+.family.purple {
+  background-color: rgb(96, 14, 172);
+}
+
+.family.gold {
+  background-color: rgb(235, 193, 56);
+}
+
+.family.pink {
+  background-color: rgb(206, 41, 165);
+}

@@ -1,0 +1,35 @@
+.filterBox {
+  width: 100%;
+  background: #e0e0e0;
+  padding: 10px;
+}
+
+.filterButton {
+  background: #000000;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 10px;
+}
+
+.colorButton {
+  border: none;
+  width: 100px;
+  height: 50px;
+}
+
+.categoryButton {
+  height: 50px;
+  width: 100px;
+  border: none;
+  margin: 3px 5px;
+  padding: 0px;
+}
+
+.active {
+  filter: brightness(0.5);
+}
+
+.section {
+  margin: 10px 0;
+}
