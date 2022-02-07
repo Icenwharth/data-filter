@@ -2,11 +2,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
 A products grid page and filter.
+
+To run download and install with 
+```npm install```
+or
+```yarn```
+
+once all dependencies are installed run 
+```yarn dev```
+to run your development server.
